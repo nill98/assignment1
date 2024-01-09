@@ -1,0 +1,20 @@
+
+/* banner related style */
+/* header{
+    align-items: center;
+} */
+
+.banner{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/media/Banner\ Image.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: center;
+
+    
+}
+
