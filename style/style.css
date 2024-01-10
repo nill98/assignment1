@@ -55,10 +55,15 @@
 
 /* ---------------New Year Section start------------------------- */
 
+.discount {
+    align-items: center;
+    justify-content: center;
+}
 .discount-content{
     margin-top: 70px;
     text-align: center;
     font-family: Inter;
+
     
 }
 .discount-content h2{
@@ -66,7 +71,7 @@
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 20px;
-    align-items: center;
+    
 }
 .discount-content p{
     color: #F00;
@@ -80,9 +85,8 @@
     font-weight: 700;
     margin-bottom: 40px;
 }
-section img{
+.discount img{
     margin-left: 550px;
-
 }
 
 /* -----------------Party Section-------------------- */
@@ -110,7 +114,6 @@ section img{
 .party-image{
     height: 465px;
     width: 320px;
-   margin-left: -500px;
 }
 .party-content h1{
     
@@ -168,3 +171,72 @@ section img{
     font-weight: 600;
     line-height: 56px;
 }
+
+/* -------------------Offers--------------- */
+
+.offer-container{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    font-family: Inter;
+    align-items: center;
+    justify-content: center;
+}
+.offer-container-left{
+    width: auto;
+    padding-right: 100px;
+}
+.offer-container-middle{
+    padding-left: -100px;
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.offer-container-right{
+    padding-left: 100px;
+}
+
+.offer-container-left h4{
+    color: #F00;
+    font-family: Inter; 
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-container-left h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-container-left p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.offer-container-middle img{
+    padding: 50px;
+}
+.offer-container-right h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.offer-container-right p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-bottom: 20px;
+}
+
