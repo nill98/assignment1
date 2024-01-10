@@ -1,13 +1,10 @@
-
-/* banner related style */
-/* header{
-    align-items: center;
-} */
-
+/* Universal */
 *{
     margin: 0;
     padding: 0;
 }
+
+/* banner related style */
 .banner{
     width: 1320px;
     height: 600px;
@@ -19,8 +16,6 @@
     
     color: #FFF;
     font-family: Merriweather;
-    
-
 }
 
 .banner-content h4 {
@@ -33,4 +28,94 @@
     font-size: 72px;
     font-weight: 900;
     text-align: center;
+}
+/* ---------------Banner er shathe breakup---------------------- */
+
+/* ---------------New Year Section start------------------------- */
+
+.discount-content{
+    margin-top: 70px;
+    text-align: center;
+    font-family: Inter;
+    
+}
+.discount-content h2{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.discount-content p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.discount-content h4{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+section img{
+    margin-left: 550px;
+
+}
+
+/* -----------------Party Section-------------------- */
+
+.party{
+    width: 1320px;
+    height: 600px;
+    margin: 100px auto;
+  
+    display: flex;
+
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/media/Vectorrr.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    
+    align-items: center;
+
+}
+
+.party-content{
+    width: 55%;
+    padding-left: 120px;
+    color: #FFF;
+}
+.party-image{
+    height: 465px;
+    width: 320px;
+   margin-left: -500px;
+}
+.party-content h1{
+    
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 12px;
+}
+.party-content p{
+    
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.party-content a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding-left: 50px;
 }
