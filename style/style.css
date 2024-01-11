@@ -304,3 +304,118 @@
 .box{
     margin-top: -430px;
 }
+
+/* -----------Portfolio showcase-------- */
+
+.portfolio{
+    width: 1340px;
+    height: auto;
+    margin: 50px auto;
+
+    justify-content: center;
+}
+
+.portfolio-content h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.portfolio-content h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.portfolio-content p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px; 
+}
+.image-raw img{
+    margin: 10px 10px;
+}
+.image-raw img:nth-child(1){
+    margin-left:  0px;
+}
+
+/* -------------------Portfolio Added-------------------- */
+
+/* -------------in a relationship with Newsletter----------- */
+
+.newsletter{
+    width: 1340px;
+    height: 616px; 
+    margin: 80px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    align-items: center;
+}
+
+.newsletter img{
+    align-items: center;
+    padding: 80px 585px;
+    padding-bottom: 40px;
+}
+
+.newsletter-content {
+    text-align: center;
+}
+.newsletter-content h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    margin-bottom: 60px;
+    width: 900px;
+    padding-left: 220px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.mail-box{
+    align-items: center ;
+    display: flex;
+    width: 648px;
+    margin: 50px 350px;
+}
+.mail-box input{
+    margin: 0;
+    width: 500px;
+    height: 42px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0;
+    background: white;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 30px;
+}
+.mail-box button{
+    width: 150px;
+    height: 82px;
+    padding: 25px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
