@@ -353,7 +353,7 @@
 .newsletter{
     width: 1340px;
     height: 616px; 
-    margin: 80px auto;
+    margin: 120px auto;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     align-items: center;
@@ -416,6 +416,48 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    
-
 }
+
+/* --------------------Footer started----------------------*/
+
+.footer{
+    width:auto;
+    height: 609px;
+    background: #070211;
+}
+.hr{
+    width: 1320px;
+}
+.footer-content{
+    padding-top: 80px;
+    margin: 0 auto;
+    color: #FFF;
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+hr{
+    width: 1320px;
+    color: rgba(255, 255, 255, 0.15);  
+    /* I was unable to manage the line color  */
+    height: 0%;
+    margin: 50px auto;
+}
+.footer-content img{
+    margin-right: 20px;
+}
+
+.footer-icon{
+    margin-top: 50px;
+    margin-left: 800px;
+    display: flex;
+}
+
+.footer-icon img{
+    margin-right: 24px;
+}
+
